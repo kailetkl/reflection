@@ -66,7 +66,6 @@ Markdown==2.6.11
 marshmallow==2.21.0
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.23.0
-numpy==1.18.4
 oauthlib==3.1.0
 opt-einsum==3.2.1
 pandas==0.25.3
