@@ -1,19 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[9]:
 
 
 from flask import Flask
 
 
-# In[11]:
+# In[10]:
 
 
 app = Flask(__name__)
 
 
-# In[12]:
+# In[11]:
 
 
 from flask import request, render_template
@@ -91,7 +91,7 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="127.0.0.1", port=int("80"))
 
 
 # In[ ]:
