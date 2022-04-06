@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Instructors' Reflections</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+        body {
+            margin: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .hero-image {
+            background-image: url("/Users/huixi/Downloads/ntu.jpg");
+            background-color: #cccccc;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <!-- Links at the top) -->
+        <div class="w3-top">
+            <div class="w3-row w3-padding w3-black">
+                <div class="w3-col s3">
+                    <a href="#" class="w3-button w3-block w3-black">Home</a>
+                </div>
+                <div class="w3-col s3">
+                    <a href="#about" class="w3-button w3-block w3-black">About</a>
+                </div>
+                <div class="w3-col s3">
+                    <a href="#reflection" class="w3-button w3-block w3-black">Reflection</a>
+                </div>
+                <div class="w3-col s3">
+                    <a href="#contact" class="w3-button w3-block w3-black">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home page -->
+        <header class = "bgimg w3-display-container w3-grayscale-min" id = "home"></header>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1 style="font-size:50px">Welcome to NBS Accreditation Office Instructors' Reflection </h1>
+            </div>
+        </div>
+        
+        <!-- About -->
+        <header class = "bgimg w3-display-container w3-grayscale-min" id = "about"></header>
+        <h1 class="w3-center w3-padding-48">About</h1>
+
+        <h3>We are the first business school in Singapore, and the third in Asia, to be accredited by both the EFMD 
+            Quality Improvement System (EQUIS) and Association to Advance Collegiate Schools of Business (AACSB). 
+            These are the most widely recognised quality assurance standards for accounting and business education, 
+            and they assure that degrees we confer are recognised around the world.​</h3>
+        <br>
+        <h3>Association to Advance Collegiate Schools of Business (AACSB)</h3>
+        <h4>We have been accredited by the AACSB for both business and accounting since 2005. AACSB accreditation is 
+            a hallmark of excellence in management education. It assures quality and promotes excellence and continuous 
+            improvement in undergraduate and graduate education for business education and accounting.</h4>
+        
+        <h3>EFMD Quality Improvement System (EQUIS)</h3>
+        <h4>We have been conferred full EQUIS accreditation since 2004. The EQUIS quality assurance scheme is a leading 
+            international system of quality assessment, improvement, and accreditation of higher education institutions 
+            in management and business administration.</h4>
+        
+        <!-- Reflection -->
+        <header class = "bgimg w3-display-container w3-grayscale-min" id = "reflection"></header>
+        <h1 class="w3-center w3-padding-48">Reflection</h1>
+
+        <h3>The Assurance of Learning Report is one of the major reports for Accreditations. </h3>
+        <h4>Your inputs are essential to helping NBS retain the EQUIS and AACSB International accreditations for 
+            commitment to quality management education.</h4>
+        <h4>Kindly complete the following questions.</h4>
+        <br>
+
+        <form action = "/" method = "post">
+            <h4>1. Describe what worked well in the course to help students attain the learning goals and why.</h4>
+            <div class = "input-group">
+                <textarea name="q1" rows="4" cols="163" wrap="soft"></textarea>
+            </div>
+        
+            <h4>2. What changes would you consider to the course assessment(s) or the course itself, to achieve a more desirable level of attainment of learning goals?</h4>
+            <div class = "input-group">
+                <textarea name="q2" rows="4" cols="163" wrap="soft"></textarea>
+            </div>
+
+            <h4>3. Describe the technologies  that are adopted / taught.</h4>
+            <div class = "input-group">
+                <textarea name="q3" rows="4" cols="163" wrap="soft"></textarea>
+            </div>
+
+            <p><button class="w3-button w3-black" type="submit">Submit</button></p>
+        </form>
+        {{result}}
+
+        <!-- Contact -->
+        <header class = "bgimg w3-display-container w3-grayscale-min" id = "contact"></header>
+        <h1 class="w3-center w3-padding-48">Contact</h1>
+        <h3>Drop us questions at accredition@ntu.edu.sg 
+            <br>
+            <br>
+            <br>
+        </h3>
+    </body>
+</html>
