@@ -50,7 +50,6 @@ urllib3==1.26.8
 Werkzeug==2.0.3
 wrapt==1.13.3
 absl-py==1.0.0
-anaconda-client==1.7.2
 anaconda-navigator==1.9.12
 anaconda-project==0.8.3
 argh==0.26.2
